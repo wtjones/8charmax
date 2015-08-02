@@ -4,7 +4,7 @@ email: wtravisjones@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
     Simply an index of my programming projects, including the windows shell utility ShimExt.
 baseurl: "" # the subpath of your site, e.g. /blog/
-baseimg: "http://cdn.8charmax.com"
+basecdn: "http://cdn.8charmax.com"
 url: "http://8charmax.com" # the base hostname & protocol for your site
 twitter_username: 
 github_username:  wtjones
