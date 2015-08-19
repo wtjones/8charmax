@@ -50,19 +50,37 @@ Notes
 Changelog
 ---------
 
-* 1.0.0 - Initial release
-* 1.1.0
-    - Allow for multiple file selection.
-    - Added "Copy Name to Clipboard" option.
-* 1.1.1 - Fixed memory leak in clipboard function.
-* 1.2.0
-    - Added option to place datestamp before the file name.
-    - Added option for stamp attribute: system time/accessed/created
-    - MSVC 2012 libraries are now statically linked.
-* 1.3.0
-    - Periods in folder names are now handled properly.
-    - Text month formats (Example: Jun or June instead of 6) now allowed: %b, %B.
-    - Default format now has underscore after date.
+
+1.0.0 - Initial release
+
+1.1.0
+
+ - Allow for multiple file selections.
+ - Added "Copy Name to Clipboard" option.
+
+1.1.1 - Fixed memory leak in clipboard function.
+
+1.2
+
+ - Added option to place datestamp before the file name.
+ - Added option for stamp attribute: system time/accessed/created
+ - MSVC 2012 libraries are now statically linked.
+
+1.3
+
+ - Periods in folder names are now handled properly.
+ - Text month formats now allowed: %b, %B. %A and %a still not allowed due to SYSTEMTIME-> tm conversion causing a crash.
+ - Default format now has underscore after date.
+ - Test project now works in VS 2012.
+
+1.3.1
+
+  - Fixed newline issue when pasting to notepad.
+
+1.4.0
+
+  - Added datestamp copy/rename to subfolder in current folder. Balloon tip in system tray notifies user of success.
+  - Various fixes related to file operations.
 
 
 Download ShimExt (free)
@@ -70,9 +88,8 @@ Download ShimExt (free)
 
 ### Prerequisites:
 
-* Windows XP SP3 or greater.
-    - Note: If you are running XP, you will need to reboot after upgrading to a new version, although it may not prompt you to do so.
-
+* Windows Vista or greater.
+    
 ### Download links:
 * Download [ShimExt installer msi for 64-bit windows]({{ site.basecdn }}/ShimExt/ShimExt-x64-1.4.0.msi)
 * Download [ShimExt installer msi for 32-bit windows]({{ site.basecdn }}/ShimExt/ShimExt-x86-1.4.0.msi)
