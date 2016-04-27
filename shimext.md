@@ -50,33 +50,37 @@ Notes
 Changelog
 ---------
 
-1.0.0 - Initial release
+1.0.0 (2012-7-16)
+  
+  - Initial release
 
-1.1.0
+1.1.0 (2012-7-30)
 
- - Allow for multiple file selections.
- - Added "Copy Name to Clipboard" option.
+  - Allow for multiple file selections.
+  - Added "Copy Name to Clipboard" option.
 
-1.1.1 - Fixed memory leak in clipboard function.
+1.1.1 (2012-8-1)
 
-1.2
+  - Fixed memory leak in clipboard function.
 
- - Added option to place datestamp before the file name.
- - Added option for stamp attribute: system time/accessed/created
- - MSVC 2012 libraries are now statically linked.
+1.2 (2013-6-13)
 
-1.3
+  - Added option to place datestamp before the file name.
+  - Added option for stamp attribute: system time/accessed/created
+  - MSVC 2012 libraries are now statically linked.
 
- - Periods in folder names are now handled properly.
- - Text month formats now allowed: %b, %B. %A and %a still not allowed due to SYSTEMTIME-> tm conversion causing a crash.
- - Default format now has underscore after date.
- - Test project now works in VS 2012.
+1.3 (2013-6-15)
 
-1.3.1
+  - Periods in folder names are now handled properly.
+  - Text month formats now allowed: %b, %B. %A and %a still not allowed due to SYSTEMTIME-> tm conversion causing a crash.
+  - Default format now has underscore after date.
+  - Test project now works in VS 2012.
+
+1.3.1 (2013-8-2)
 
   - Fixed newline issue when pasting to notepad.
 
-1.4.0
+1.4.0 (2015-6-15)
 
   - Added datestamp copy/rename to subfolder in current folder. Balloon tip in system tray notifies user of success.
   - Various fixes related to file operations.
