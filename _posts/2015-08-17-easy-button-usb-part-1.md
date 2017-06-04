@@ -44,3 +44,7 @@ Is the correct way to handle a button? Probably not, at least according to the [
 ## Next up...
 
 I plan on sharing my experience in coaxing the Arduino into behaving as a HID (Human Input Device).
+
+### Update
+
+[Part 2]({{ site.baseurl }}{% post_url 2017-06-04-easy-button-usb-part-2 %}) is now available.
