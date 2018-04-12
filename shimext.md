@@ -85,17 +85,20 @@ Changelog
   - Added datestamp copy/rename to subfolder in current folder. Balloon tip in system tray notifies user of success.
   - Various fixes related to file operations.
 
+1.4.1
+
+  - MSVC 2017
 
 Download ShimExt (free)
 -----------------------
 
 ### Prerequisites:
 
-* Windows Vista or greater.
+* Windows 7 SP1 or greater
     
 ### Download links:
-* Download [ShimExt installer msi for 64-bit windows]({{ site.basecdn }}/ShimExt/ShimExt-x64-1.4.0.msi)
-* Download [ShimExt installer msi for 32-bit windows]({{ site.basecdn }}/ShimExt/ShimExt-x86-1.4.0.msi)
+* Download [ShimExt installer msi for 64-bit windows]({{ site.basecdn }}/ShimExt/ShimExt-x64-1.4.1.msi)
+* Download [ShimExt installer msi for 32-bit windows]({{ site.basecdn }}/ShimExt/ShimExt-x86-1.4.1.msi)
 
 <form action="https://www.paypal.com/cgi-bin/webscr" method="post">
                     <input type="hidden" name="cmd" value="_s-xclick">
